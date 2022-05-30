@@ -41,8 +41,8 @@ function sockMerchant(n, ar) {
         }
     })
     return Object.keys(objSockPair).reduce((previousVal,key)=>{
-        if((objSockPair[key]/2)>1){
-            return previousVal + parseInt(objSockPair[key]/2,10)
+        if((objSockPair[key]/2)>=1){
+            return previousVal + parseInt(objSockPair[key]/2)
         }else{
             return previousVal
         }
