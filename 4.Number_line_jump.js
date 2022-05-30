@@ -47,7 +47,7 @@ function kangaroo(x1, v1, x2, v2) {
         l=x1;
         lj=v1;
     }
-    if(fj<lj){
+    if(fj<=lj){
         return "NO"
     }
     for(;f<=l;f=f+fj,l=l+lj){
